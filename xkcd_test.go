@@ -18,25 +18,25 @@ func TestMain(t *testing.T) {
 		t.Errorf("Error %s returned by Get().", err)
 	}
 	if c.Title != title {
-		t.Errorf("Title should be %s, got %s.", title, c.Title)
+		t.Errorf("Title should be\n%s\ngot\n%s", title, c.Title)
 	}
 	if c.Num != num {
 		t.Errorf("Num should be %d, got %d.", num, c.Num)
 	}
 	if c.Year != year {
-		t.Errorf("Year should be %s, got %s.", year, c.Year)
+		t.Errorf("Year should be\n%s\ngot\n%s", year, c.Year)
 	}
 	if c.Month != month {
-		t.Errorf("Month should be %s, got %s.", month, c.Month)
+		t.Errorf("Month should be\n%s\ngot\n%s", month, c.Month)
 	}
 	if c.Day != day {
-		t.Errorf("Day should be %s, got %s.", day, c.Day)
+		t.Errorf("Day should be\n%s\ngot\n%s", day, c.Day)
 	}
 	if c.Alt != alt {
-		t.Errorf("Alt should be %s, got %s.", alt, c.Alt)
+		t.Errorf("Alt should be\n%s\ngot\n%s", alt, c.Alt)
 	}
 	if c.Img != img {
-		t.Errorf("Img should be %s, got %s.", img, c.Img)
+		t.Errorf("Img should be\n%s\ngot\n%s", img, c.Img)
 	}
 }
 
@@ -57,24 +57,24 @@ func TestWeird(t *testing.T) {
 		t.Errorf("Error %s returned by Get().", err)
 	}
 	if c.Title != wtitle {
-		t.Errorf("Title should be %s, got %s.", wtitle, c.Title)
+		t.Errorf("Title should be\n%s\ngot\n%s", wtitle, c.Title)
 	}
 	if c.Num != wnum {
 		t.Errorf("Num should be %d, got %d.", wnum, c.Num)
 	}
 	if c.Year != wyear {
-		t.Errorf("Year should be %s, got %s.", wyear, c.Year)
+		t.Errorf("Year should be\n%s\ngot\n%s", wyear, c.Year)
 	}
 	if c.Month != wmonth {
-		t.Errorf("Month should be %s, got %s.", wmonth, c.Month)
+		t.Errorf("Month should be\n%s\ngot\n%s", wmonth, c.Month)
 	}
 	if c.Day != wday {
-		t.Errorf("Day should be %s, got %s.", wday, c.Day)
+		t.Errorf("Day should be\n%s\ngot\n%s", wday, c.Day)
 	}
 	if c.Alt != walt {
-		t.Errorf("Alt should be %s, got %s.", walt, c.Alt)
+		t.Errorf("Alt should be\n%s\ngot\n%s", walt, c.Alt)
 	}
 	if c.Img != wimg {
-		t.Errorf("Img should be %s, got %s.", wimg, c.Img)
+		t.Errorf("Img should be\n%s\ngot\n%s", wimg, c.Img)
 	}
 }
