@@ -47,7 +47,7 @@ const (
 	wyear  = "2011"
 	wmonth = "2"
 	wday   = "11"
-	walt   = `Brains aside, I wonder how many poorly-written xkcd.com-parsing scripts will break on this title (or \\;;"\''{\<<[' this mouseover text."`
+	walt   = `Brains aside, I wonder how many poorly-written xkcd.com-parsing scripts will break on this title (or \;;"\''{\<<[' this mouseover text."`
 	wimg   = "http://imgs.xkcd.com/comics/(.png"
 )
 
