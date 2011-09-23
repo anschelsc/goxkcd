@@ -18,7 +18,7 @@ type Comic struct {
 }
 
 func Get(num int) (*Comic, os.Error) {
-	response, _, err := http.Get(fmt.Sprintf("http://xkcd.com/%d/info.0.json", num))
+	response, err := http.Get(fmt.Sprintf("http://xkcd.com/%d/info.0.json", num))
 	if err != nil {
 		return nil, err
 	}
